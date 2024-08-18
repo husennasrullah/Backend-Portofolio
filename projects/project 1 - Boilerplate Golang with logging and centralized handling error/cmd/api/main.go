@@ -116,8 +116,8 @@ func runHttpServer(ctx context.Context, waitGroup *errgroup.Group, cfg *config.C
 }
 
 func setSwaggerInfo() {
-	docs.SwaggerInfo.Title = "Dealer Portal - OMS Service"
-	docs.SwaggerInfo.Description = "OMS service of dealer portal"
+	docs.SwaggerInfo.Title = "Golang Boilerplate"
+	docs.SwaggerInfo.Description = "Golang Boilerplate"
 	docs.SwaggerInfo.Version = "1.0"
 	docs.SwaggerInfo.BasePath = "/"
 	docs.SwaggerInfo.Schemes = []string{"https", "http"}
