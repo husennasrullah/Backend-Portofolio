@@ -1,0 +1,45 @@
+definitions:
+  out.BaseResponse:
+    properties:
+      data: {}
+      error_message:
+        type: string
+      status:
+        type: integer
+    type: object
+info:
+  contact: {}
+paths:
+  /v1/order:
+    get:
+      consumes:
+      - application/json
+      description: '"List Product"'
+      parameters:
+      - description: filter page
+        in: query
+        name: page
+        type: integer
+      - description: set limit
+        in: query
+        name: limit
+        type: integer
+      - description: filter by product_name
+        in: query
+        name: product_name
+        type: integer
+      - description: filter by product_sku
+        in: query
+        name: product_sku
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/out.BaseResponse'
+      summary: List Product
+      tags:
+      - Internal API - List Product
+swagger: "2.0"
