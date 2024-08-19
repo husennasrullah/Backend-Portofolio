@@ -40,7 +40,7 @@ Here are some independent projects created to showcase the extent of my proficie
 ### [project 1 - Boilerplate Golang with logging and centralized handling error](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%201%20-%20Boilerplate%20Golang%20with%20logging%20and%20centralized%20handling%20error)
 A boilerplate template for a Golang project that includes project structure, centralized error handling, and proper logging.
 
-### [project 2 - Simple Http Server using Gin Framework](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%202%20-%20Simple%20Http%20Server%20using%20Gin%20Framework))
+### [project 2 - Simple Http Server using Gin Framework](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%202%20-%20Simple%20Http%20Server%20using%20Gin%20Framework)
 A simple HTTP REST API project using Golang with a monolithic structure, including logging and error handling.
 
 ### [project 3 - Microservices Using GRPC](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%203%20-%20Microservices%20Using%20GRPC)
