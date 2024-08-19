@@ -1,0 +1,22 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+  "postgresql": {
+    "address": "user=husen password=testing123 dbname=erajaya search_path=public sslmode=disable host=host.docker.internal port=5433",
+    "default_schema": "public"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 0,
+    "password": "",
+    "timeout": 10000,
+    "request_volume_threshold": 1000,
+    "sleep_window": 500,
+    "error_percent_threshold": 5,
+    "max_concurrent_requests": 10
+  }
+}

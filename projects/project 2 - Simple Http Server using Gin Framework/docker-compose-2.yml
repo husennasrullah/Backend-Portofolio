@@ -1,0 +1,35 @@
+version: '3'
+services:
+  app:
+    image: testing
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: { development }
+    ports:
+      - "8080:8080"
+    environment:
+      - projectconfig=./config
+    depends_on:
+      - db
+    networks:
+      - mynet
+  db:
+    image: postgres:latest
+    container_name: postgresql-nxsf
+    environment:
+      POSTGRES_USER: husen
+      POSTGRES_PASSWORD: testing123
+      PGDATA: /data/postgres
+      POSTGRES_DB: erajaya
+    volumes:
+      - postgres-db:/data/postgres
+    ports:
+      - "5433:5432"
+    networks:
+      - mynet
+volumes:
+  postgres-db:
+    driver: local
+networks:
+  mynet:
