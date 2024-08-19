@@ -41,16 +41,16 @@ Here are some independent projects created to showcase the extent of my proficie
 A boilerplate template for a Golang project that includes project structure, centralized error handling, and proper logging.
 
 ### [project 2 - Simple Http Server using Gin Framework](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%202%20-%20Simple%20Http%20Server%20using%20Gin%20Framework))
-An asynchronous task processing system using Asynq, integrated with a SQL database for managing task queues and handling retries.
+A simple HTTP REST API project using Golang with a monolithic structure, including logging and error handling.
 
-### [project 3 - Microservices Using GRPC]([https://github.com/yourusername/microservices-architecture](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%203%20-%20Microservices%20Using%20GRPC))
-A collection of microservices built with Golang, each handling different aspects of a larger application. The services communicate via gRPC and are deployed on Kubernetes.
+### [project 3 - Microservices Using GRPC](https://github.com/husennasrullah/Backend-Portofolio/tree/main/projects/project%203%20-%20Microservices%20Using%20GRPC)
+A collection of microservices built with Golang, each handling different aspects of a larger application. The services communicate via gRPC. and have an api gateway
 
 ## Contact
 
 Feel free to reach out to me if you'd like to discuss backend development, Golang, or anything tech-related!
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: nasrullahhusen99@gmail.com
+- **LinkedIn**: [linkedin.com/in/husen-nasrullah](https://www.linkedin.com/in/husen-nasrullah-395497146/)
+- **GitHub**: [github.com/husennasrullah](https://github.com/husennasrullah)
 
