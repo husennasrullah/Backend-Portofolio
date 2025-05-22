@@ -5,7 +5,7 @@
     "port": 8080
   },
   "postgresql": {
-    "address": "user=husen password=testing123 dbname=erajaya search_path=public sslmode=disable host=host.docker.internal port=5433",
+    "address": "user=postgres password=postgres dbname=crudproduct search_path=public sslmode=disable host=192.168.49.1 port=5433",
     "default_schema": "public"
   },
   "redis": {

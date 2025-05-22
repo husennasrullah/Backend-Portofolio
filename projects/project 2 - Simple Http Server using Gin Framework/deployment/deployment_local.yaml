@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+        - name: myapp-container
+          imagePullPolicy: Never
+          image: myapp:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: projectconfig
+              value: "config"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+spec:
+  type: NodePort
+  selector:
+    app: myapp
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30007
+
